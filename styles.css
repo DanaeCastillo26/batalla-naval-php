@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	padding: 20px;
+	background-image: url("fondo.jpg");
+}
+form{
+	margin: 20px;
+}
+.caja{
+	display: block;
+	padding: 5px;
+	border: none;
+	box-shadow: 0px 2px #c2c2c2;
+	margin-bottom: 10px;
+	outline: none;
+}
+.caja:focus{
+	box-shadow: 0px 2px skyblue;
+}
+.btn{
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.casilla{
+	width: 30px;
+	height: 30px;
+	background: deepskyblue;
+	cursor: pointer;
+	border: 1px solid #c2c2c2;
+}
+table{
+	background: #f5f5f5;
+	padding: 20px;
+	border-radius: 5px;
+}
